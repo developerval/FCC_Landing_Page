@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*   border: 2px solid green; */
+  }
+  nav {
+    display: flex;
+    position: fixed;
+    /*   background-color: dimgrey; */
+    height: 5rem;
+    justify-content: space-around;
+    width: 100vw;
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: white;
+  }
+  
+  .nav-link {
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    font-family: Impact;
+  }
+  
+  #header-img {
+    height: 175%;
+    border-radius: 50%;
+  }
+  
+  #main-container {
+    /*   background-color: grey; */
+    margin-top: 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #top {
+    text-align: center;
+    width: 70%;
+  }
+  
+  iframe {
+    height: 50vh;
+    width: 50vw;
+    box-shadow: 10px 10px black;
+  }
+  
+  #prices {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+  }
+  
+  .price {
+    border: 2px solid black;
+    height: 20em;
+    width: 35ch;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px black;
+  }
+  
+  span {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 2rem;
+    background-color: white;
+    border: 2px solid black;
+    width: 10ch;
+    height: 2em;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  #footer-container {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 100%;
+    height: 10rem;
+    /*   background-color: dimgrey; */
+    border-top: 1px solid black;
+    background-color: white;
+  }
+  
+  #contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 75vw;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+  
+  h1,
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-family: Impact;
+    font-variant: small-caps;
+  }
+  
+  form > h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    border: 2px solid black;
+    padding: 3em;
+    width: 70%;
+    box-shadow: 10px 10px black;
+  }
+  
+  input {
+    width: 30ch;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #prices {
+      flex-direction: column;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .price {
+      width: 60%;
+      margin-bottom: 2rem;
+    }
+  
+    textarea {
+      width: 90%;
+    }
+  
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>FCC Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img" src="https://i.imgur.com/1gWFFmJ.png" alt="">
+            <a href="#top" class="nav-link">Home</a>
+            <a href="#prices" class="nav-link">Prices</a>
+            <a href="#contact" class="nav-link">Get in touch</a>
+        </nav>
+    </header>
+    <div id="main-container">
+        <div id="top">
+            <h1>Watch our latest promo!</h1>
+            <iframe id="video" src="https://www.youtube.com/embed/XsHaCBm3wk8" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <h2>Our Packages</h2>
+        <div id="prices">
+            <div class="price">
+                <h3>Basic</h3><br><br>
+                <ul>
+                    <li>Up to 4 people per group</li>
+                    <li>100 Paintballs free per person</li>
+                    <li>6 Games</li>
+                </ul>
+                <span id="price-tag">£20pp</span>
+                <button>Buy now!</button>
+            </div>
+            <div class="price">
+                <h3>Upgraded</h3><br><br>
+                <ul>
+                    <li>Up to 16 people per group</li>
+                    <li>200 Paintballs free per person</li>
+                    <li>8 Games</li>
+                </ul>
+                <span id="price-tag">£35pp</span>
+                <button>Buy now!</button>
+            </div>
+            <div class="price">
+                <h3>Ultimate</h3><br><br>
+                <ul>
+                    <li>Up to 32 people per group</li>
+                    <li>300 Paintballs free per person</li>
+                    <li>12 Games = Full day of paintball!</li>
+                </ul>
+                <span id="price-tag">£60pp</span>
+                <button>Buy now!</button>
+            </div>
+        </div>
+        <div id="contact">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <h2>Get in touch!</h2>
+                Name:
+                <input type="text" placeholder="Enter your name (Required)" required><br><br>
+                Email:
+                <input type="email" name="email" id="email" required placeholder="Enter your email (Required)"><br><br>
+                Your message: <br>
+                <textarea id="message" cols="50" rows="5" placeholder="Enter your message here..."></textarea><br><br>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    <footer id="footer-container">
+        <h1>Footer</h1>
+    </footer>
+</body>
+
+</html>
